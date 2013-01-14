@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Tinh tien karaoke</title>
+</head>
+<body>
+	<form action="tinhtien.php" method= "POST">
+		<table> TINH TIEN KARAOKE
+			<tr>
+				<td>Gio bat dau</td>
+				<td><input type="text" name="giobd" value= 
+					<?php if( isset($giobd)) echo $giobd; ?>/>(h)</td>
+			</tr>
+			<tr>
+				<td>Gio ket thuc</td>
+				<td><input type="text" name="giokt" value= 
+					<?php if( isset($giokt)) echo $giokt; ?>/>(h)</td>
+			</tr>
+			<tr>
+				<td>Tien thanh toan</td>
+				<td><input type="text" name="thanhtien" value= 
+					<?php echo $thanhtien; ?>/>(VND)</td>
+			</tr>
+				<td><input type="submit" name="submit" value="Tinh tien" ></td>
+				
+			</tr>	
+		</table>	
+</body>
+
+</html>
