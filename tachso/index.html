@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title> Đọc số </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head>
+<body>
+<form action="docso.php" method="POST">
+	<table>
+		<tr>
+			<td>Nhập số từ 0->999</td>
+			<td><input type='text'  name='num'  value="<?php echo $_POST['number']; ?>"/></td>
+			<td><input type='submit' value='Đọc số' /></td>
+		</tr>
+		<tr>
+			<td> Bằng chữ </td>
+			<td> <input type='text' value="<?php echo $ketqua;?>"/> </td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title> Tách tên </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+</head>
+<body>
+<form method = "POST" action="tachhoten.php">
+<table>
+	<tr>
+		<td> Họ và tên </td>
+		<td><input type='text' value="<?php echo $_POST["hovaten"]; ?>" name='hoten'/></td>
+	</tr>
+	<tr>
+		<td>Họ</td>
+		<td><input type="text" value="<?php echo $ho;?>" /></td>
+	</tr>
+	<tr>
+		<td>Tên đệm</td>
+		<td><input type="text" value="<?php echo $tendem;?>" /></td>
+	</tr>
+	<tr>
+		<td>Tên</td>
+		<td><input type="text" value="<?php echo $ten;?>" /></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="Tách họ và tên" name="tach"/></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
